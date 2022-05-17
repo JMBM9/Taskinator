@@ -8,10 +8,8 @@ var createTaskHandler = function(){
     listItemEl.className = "task-item";
     listItemEl.textContent = "this is a new task.";
 tasksToDoEl.appendChild(listItemEl);
-}
-
-
-buttonEl.addEventListener("click", createTaskHandler); {
-
 };
+
+
+buttonEl.addEventListener("click", createTaskHandler); 
 
